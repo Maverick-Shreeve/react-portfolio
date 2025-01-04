@@ -40,7 +40,7 @@ function Hero() {
                     Shreeve
                 </h1>
                 <h2>
-                    Sofware Engineer
+                    Software Engineer
                 </h2>
                 <span>
                     <a href="https://github.com/Maverick-Shreeve">

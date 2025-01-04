@@ -6,9 +6,15 @@
   text-align: center;
   height: 100dvh;
   min-height: 500px;
+  align-items: center;
 
   .hero {
-    max-width: 200px;
+    width: 200px;
+    aspect-ratio: 1 / 1; /* Ensures a perfect square since my portfolio headshot isnt a perfect square */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--btn-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   span {
@@ -55,6 +61,10 @@
 
 .colorModeContainer {
   position: relative;
+}
+
+.colorModeContainer img {
+  width: 30px; /* Enforce consistent size, this fixed a annoying problem with my headshot shifting when dark mode activated*/
 }
 
 .colorMode {
