@@ -6,7 +6,7 @@ import linkedinLightLogo from "../../assets/linkedin-light.svg"
 import linkedinDarkLogo from "../../assets/linkedin-dark.svg"
 import githubDarkLogo from "../../assets/github-dark.svg"
 import updatedResume from '../../assets/2022Resume.pdf'
-import { useTheme} from '../../context/ThemeContext'
+import { useTheme} from '../../common/ThemeContext.jsx'
 import moon from '../../assets/moon.svg'
 
 
