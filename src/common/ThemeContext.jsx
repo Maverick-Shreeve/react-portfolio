@@ -4,7 +4,6 @@ const ThemeContext = createContext();
 
 export const useTheme = () => useContext(ThemeContext);
 
-// ThemeProvider component to manage and provide the theme to the app
 export const ThemeProvider = ({ children}) => {
     const [theme, setTheme] = useState(
       () =>  localStorage.getItem('theme') || 'light' // Check localStorage for saved theme or default to 'light
@@ -21,7 +20,7 @@ export const ThemeProvider = ({ children}) => {
         setTheme ((prevTheme) => (prevTheme === 'light' ? 'dark' :'light'));
     };
 
-        // provide theme and toggleTheme function to children components
+        // provide functions to children components
     return(
         <ThemeContext.Provider value = {{ theme, toggleTheme}}>
             {children}
