@@ -29,7 +29,6 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="AWS" />
         <SkillList src={checkMarkIcon} skill="MySQL" />
         <SkillList src={checkMarkIcon} skill="PostMan" />
-        <SkillList src={checkMarkIcon} skill="Bootstrap" />
       </div>
     </section>
   );
