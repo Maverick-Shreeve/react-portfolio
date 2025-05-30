@@ -5,7 +5,7 @@ import githubLightLogo from "../../assets/github-light.svg"
 import linkedinLightLogo from "../../assets/linkedin-light.svg"
 import linkedinDarkLogo from "../../assets/linkedin-dark.svg"
 import githubDarkLogo from "../../assets/github-dark.svg"
-import updatedResume from '../../assets/2022Resume.pdf'
+import updatedResume from '../../assets/softwareEngineerResume.pdf'
 import { useTheme} from '../../common/ThemeContext.jsx'
 import moon from '../../assets/moon.svg'
 
@@ -40,7 +40,7 @@ function Hero() {
                     Shreeve
                 </h1>
                 <h2>
-                    Full Stack Developer
+                    Software Engineer
                 </h2>
                 <span>
                     <a href="https://github.com/Maverick-Shreeve">

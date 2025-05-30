@@ -62,11 +62,9 @@
 .colorModeContainer {
   position: relative;
 }
-
 .colorModeContainer img {
   width: 30px; /* Enforce consistent size, this fixed a annoying problem with my headshot shifting when dark mode activated*/
 }
-
 .colorMode {
   position: absolute;
   right: 0;
@@ -85,4 +83,17 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+@media (width >= 800px) {
+  .container {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .hero {
+      max-width: 350px;
+      width: 350px;
+    }
+  }
 }
